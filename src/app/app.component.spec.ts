@@ -20,17 +20,17 @@ describe('AppComponent', () => {
 
   const parentTaskDetail: any = [
     {
-      "Parent_Task": "Cognizant",
+      "Parent_Task": "ParentTaskGUID1",
       "Parent_ID": 1
      
     },
     {
-      "Parent_Task": "Internal",
+      "Parent_Task": "ParentTaskGUID2",
       "Parent_ID": 2
      
     },
     {
-     "Parent_Task": "External",
+     "Parent_Task": "ParentTaskGUID3",
       "Parent_ID": 3
      
     }
@@ -39,28 +39,28 @@ describe('AppComponent', () => {
 
   const taskDetail: any = [
     {
-      "Task_ID": "1",
-      "Parent_ID": 2,
+      "Task_ID": "GUID1",
+      "Parent_ID": "GUID2",
+      "Task": "Task 1",
+      "Start_Date": "10/07/2018",
+      "End_Date": "11/30/2018",
+      "Priority": 35
+    },
+    {
+      "Task_ID": "GUID2",
+      "Parent_ID": "GUID2",
       "Task": "Test 2",
-      "Start_Date": "09/07/2018",
-      "End_Date": "09/08/2018",
+      "Start_Date": "10/07/2018",
+      "End_Date": "11/30/2018",
       "Priority": 40
     },
     {
-      "Task_ID": "2",
-      "Parent_ID": 2,
-      "Task": "Test 2",
-      "Start_Date": "09/07/2018",
-      "End_Date": "09/08/2018",
-      "Priority": 40
-    },
-    {
-      "Task_ID": "3",
-      "Parent_ID": 2,
+      "Task_ID": "GUID3",
+      "Parent_ID": "GUID2",
       "Task": "Test 3",
-      "Start_Date": "09/08/2018",
-      "End_Date": "09/09/2018",
-      "Priority": 60
+      "Start_Date": "10/08/2018",
+      "End_Date": "11/30/2018",
+      "Priority": 50
     }
   ];
 
