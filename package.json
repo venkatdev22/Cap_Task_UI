@@ -23,6 +23,7 @@
     "@ngx-loading-bar/http-client": "^3.0.0",
     "angular-alert-module": "^2.0.3",
     "core-js": "^2.5.4",
+    "ngx-order-pipe": "^2.0.2",
     "rxjs": "~6.2.0",
     "sweetalert2": "^7.29.1",
     "zone.js": "~0.8.26"
